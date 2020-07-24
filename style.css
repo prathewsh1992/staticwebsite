@@ -1,0 +1,247 @@
+ *{
+    box-sizing: border-box;
+} 
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(153,153,164,1) 80%, rgba(0,212,255,1) 100%); 
+  
+} 
+html{
+    scroll-behavior: smooth;
+}
+.content_12{
+    font-size: 2em;
+    font-family:  'Arizonia', cursive;
+
+    font-family: 'GFS Didot', serif;
+
+    font-family: 'Yesteryear', cursive;
+    color: #fff;
+
+}
+#menu li a:hover,#active{
+    background-color: #292929;
+    color:#ffff ;
+    font-weight: 800;
+    transition: all ease 0.5s;
+}
+  /* #backg{
+    background-image: url(hack2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}   */
+#image{
+
+    display: flex;
+    justify-content: right;
+    box-shadow: 8px 3px 26px black;
+    overflow: hidden;
+    border-radius: 1em;
+}
+ .img-container img{
+     object-fit: cover;
+     transition: 0.5s ease-in;
+ }   
+ .img-container img:hover{
+     transform: scale(1.2) rotate(15deg);
+ }
+ .card{
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    width: 200px;
+    align-items: center;
+    color: rgb(22, 21, 21);
+    overflow: hidden;
+    border-radius: 1em;
+    box-shadow: 10px 5px 26px rgb(31, 28, 28);
+    font-family:  'Arizonia', cursive;
+
+    font-family: 'GFS Didot', serif;
+
+    font-family: 'Yesteryear', cursive;
+    font-size: 20px;
+    
+ }
+.cardimg{
+    object-fit: cover;
+     transition: 0.5s ease-in;
+    
+}
+.cardimg img:hover{
+    transform: scale(0.8);
+}
+
+/* 
+#about{
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 2-px 5%;
+}  */
+/*--------------------contact form------------------------*/
+
+/*
+.contact-form{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255,255,255, 0.01);
+}
+.contact-form form{
+    display: flex;
+    width: 70%;
+    height:60vh;
+    background-color: #1a1a1a;
+    box-shadow: 2px 12px 20px rgba(0,0 ,0,0.2);
+    border: 1px solid rgba(255,255,255, 0.01);
+}
+.contact-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact-right{
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+
+}
+.contact-heading{
+    font-family: calibri;
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 0.125em;
+    font-weight: 400;
+}
+.name2,
+.email{
+    display: flex;
+    flex-direction: column;
+    font-family: calibri;
+
+}
+
+.email font,
+.name2 font{
+    color: #bfbfbf;
+    font-size: 1.125em;
+}
+.email input,
+.name2 input{
+    height: 1.5em;
+    width: 16em;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #929292;
+    color: #fff;
+    margin: 10px 0px;
+
+}
+.email input::placeholder,
+.name2 input::placeholder{
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+.email input::-moz-focus-inner,
+.name2 input::-moz-focus-inner{
+    border-bottom: 1px solid #17d1ac;
+    transition: all ease 0.5s;
+}
+.message font{
+    font-size: 1.125em;
+    color: #4e4e4e;
+    font-family: calibri;
+}
+.message{
+    margin: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+.contact-right textarea{
+    width: 100%;
+    height: 320px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #ebebeb;
+    font-size: 16px;
+}
+.contact-right textarea::placeholder{
+    color: #ebebeb;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: calibri;
+}
+.contact-right button{
+    width: 100%;
+    height: 50px;
+    background-color: #1ed98b;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin:0px;
+    color: #1b1b1b;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}*/
+
+
+
+
+
+/*-------------------------------------------------------------*/
+#cyber{
+    color: #3a2370;
+    font-size: 3em;
+    font-family: 'Grenze Gotisch', cursive;
+
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+}
+#detail{
+    color: #702342;
+    font-size: 2em;
+    font-family: 'Grenze Gotisch', cursive;
+
+    font-family: 'Oleo Script', cursive;
+
+    font-family: 'Parisienne', cursive;
+    font-weight: 800;
+}
+
+#cont-det{
+    font-size: 20px;
+    font-family: 'Grenze Gotisch', cursive;
+    color: white;
+}
+
+
+footer{
+     text-align: center;
+     color: gray;
+     padding: 15px;
+ }
+ footer span{
+     color: indigo;
+     font-weight: bold;
+ }
