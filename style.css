@@ -68,7 +68,7 @@ html{
  }
 .cardimg{
     object-fit: cover;
-     transition: 0.5s ease-in;
+     transition: 0.5s ease-out; 
     
 }
 .cardimg img:hover{
